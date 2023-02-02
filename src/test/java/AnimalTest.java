@@ -28,7 +28,7 @@ public class AnimalTest {
     }
 
     @Test
-    public void FoodTest() throws Exception {
+    public void foodTest() throws Exception {
         Animal animal = new Animal();
         assertNotEquals("В списке еды отсутствует: " + food, -1, animal.getFood(animalKind).indexOf(food));
     }
